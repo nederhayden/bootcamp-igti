@@ -1,0 +1,35 @@
+ul {
+  list-style: none;
+}
+
+form {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+#box {
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  margin-left: 120px;
+}
+
+.sizeInput {
+  width: 3rem;
+  text-align: center;
+}
+
+#colors {
+  font-weight: bold;
+  padding: 5px;
+  line-height: 1.8;
+}
+
+#input {
+  line-height: 1.8;
+}
+
+.inputValue {
+  width: 3rem;
+}

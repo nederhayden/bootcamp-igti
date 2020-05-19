@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Trabalho Prático Módulo 1</title>
+  </head>
+  <body>
+    <form>
+      <div id="colors">
+        <ul>
+          <li>(R) Vermelho</li>
+          <li>(G) Verde</li>
+          <li>(B) Azul</li>
+        </ul>
+      </div>
+      <div id="ranges">
+        <ul>
+          <li>
+            <input type="range" id="Vermelho" min="0" max="255" value="0" />
+          </li>
+          <li>
+            <input type="range" id="Verde" min="0" max="255" value="0" />
+          </li>
+          <li>
+            <input type="range" id="Azul" min="0" max="255" value="0" />
+          </li>
+        </ul>
+      </div>
+      <div id="input">
+        <ul>
+          <li>
+            <input class="inputValue" id="inputValueRed" type="text" disabled value="0" />
+          </li>
+          <li>
+            <input class="inputValue" id="inputValueGreen" type="text" disabled value="0" />
+          </li>
+          <li>
+            <input class="inputValue" id="inputValueBlue" type="text" disabled value="0" />
+          </li>
+        </ul>
+      </div>
+    </form>
+    <div id="box"></div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
