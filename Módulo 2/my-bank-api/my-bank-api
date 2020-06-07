@@ -1,0 +1,80 @@
+2020-06-07T18:55:37.640Z [my-banl-api] info API Started
+2020-06-07T18:57:00.176Z [my-banl-api] info API Started
+2020-06-07T18:57:02.382Z [my-banl-api] info API Started
+2020-06-07T18:57:08.329Z [my-banl-api] info API Started
+2020-06-07T18:57:10.362Z [my-banl-api] info API Started
+2020-06-07T18:57:13.652Z [my-banl-api] info API Started
+2020-06-07T18:57:16.545Z [my-banl-api] info API Started
+2020-06-07T18:57:19.774Z [my-banl-api] info API Started
+2020-06-07T18:57:22.579Z [my-banl-api] info API Started
+2020-06-07T18:57:24.790Z [my-banl-api] info API Started
+2020-06-07T18:57:26.181Z [my-banl-api] info API Started
+2020-06-07T18:57:55.825Z [my-banl-api] info API Started
+2020-06-07T18:58:05.272Z [my-banl-api] info API Started
+2020-06-07T18:58:08.415Z [my-banl-api] info API Started
+2020-06-07T18:58:10.712Z [my-banl-api] info API Started
+2020-06-07T18:58:22.162Z [my-banl-api] info API Started
+2020-06-07T18:58:29.099Z [my-banl-api] info API Started
+2020-06-07T18:58:49.184Z [my-banl-api] info API Started
+2020-06-07T18:59:27.984Z [my-banl-api] info POST /account - {"id":15,"name":"Usuario3","balance":0}
+2020-06-07T18:59:55.530Z [my-banl-api] info API Started
+2020-06-07T19:00:09.478Z [my-banl-api] info API Started
+2020-06-07T19:00:12.085Z [my-banl-api] info API Started
+2020-06-07T19:00:17.079Z [my-banl-api] info API Started
+2020-06-07T19:00:23.555Z [my-banl-api] info API Started
+2020-06-07T19:00:25.267Z [my-banl-api] info API Started
+2020-06-07T19:00:27.087Z [my-banl-api] info API Started
+2020-06-07T19:00:36.685Z [my-banl-api] info API Started
+2020-06-07T19:00:41.139Z [my-banl-api] info API Started
+2020-06-07T19:00:50.808Z [my-banl-api] info API Started
+2020-06-07T19:01:02.557Z [my-banl-api] info API Started
+2020-06-07T19:01:03.939Z [my-banl-api] info API Started
+2020-06-07T19:01:08.933Z [my-banl-api] info API Started
+2020-06-07T19:01:10.936Z [my-banl-api] info API Started
+2020-06-07T19:01:46.142Z [my-banl-api] info API Started
+2020-06-07T19:01:48.837Z [my-banl-api] info API Started
+2020-06-07T19:02:03.932Z [my-banl-api] info API Started
+2020-06-07T19:02:06.031Z [my-banl-api] info API Started
+2020-06-07T19:02:07.419Z [my-banl-api] info API Started
+2020-06-07T19:02:12.542Z [my-banl-api] info API Started
+2020-06-07T19:02:18.909Z [my-banl-api] info API Started
+2020-06-07T19:02:27.115Z [my-banl-api] info API Started
+2020-06-07T19:02:42.586Z [my-banl-api] info API Started
+2020-06-07T19:02:45.176Z [my-banl-api] info API Started
+2020-06-07T19:02:48.965Z [my-banl-api] info API Started
+2020-06-07T19:02:59.641Z [my-banl-api] info API Started
+2020-06-07T19:03:16.364Z [my-banl-api] info API Started
+2020-06-07T19:03:22.112Z [my-banl-api] info API Started
+2020-06-07T19:03:34.935Z [my-banl-api] info API Started
+2020-06-07T19:03:36.448Z [my-banl-api] info API Started
+2020-06-07T19:03:38.037Z [my-banl-api] info API Started
+2020-06-07T19:03:39.459Z [my-banl-api] info API Started
+2020-06-07T19:04:02.549Z [my-banl-api] info API Started
+2020-06-07T19:04:05.417Z [my-banl-api] info API Started
+2020-06-07T19:04:17.253Z [my-banl-api] info API Started
+2020-06-07T19:04:27.843Z [my-banl-api] info API Started
+2020-06-07T19:04:41.430Z [my-banl-api] info API Started
+2020-06-07T19:04:42.500Z [my-banl-api] info API Started
+2020-06-07T19:04:53.608Z [my-banl-api] info API Started
+2020-06-07T19:05:19.882Z [my-banl-api] info API Started
+2020-06-07T19:05:24.103Z [my-banl-api] info API Started
+2020-06-07T19:05:26.900Z [my-banl-api] info API Started
+2020-06-07T19:05:33.868Z [my-banl-api] info API Started
+2020-06-07T19:05:41.366Z [my-banl-api] info API Started
+2020-06-07T19:05:42.843Z [my-banl-api] info API Started
+2020-06-07T19:05:51.068Z [my-banl-api] info API Started
+2020-06-07T19:05:57.693Z [my-banl-api] info API Started
+2020-06-07T19:06:02.278Z [my-banl-api] info API Started
+2020-06-07T19:06:07.962Z [my-banl-api] info API Started
+2020-06-07T19:06:27.759Z [my-banl-api] info API Started
+2020-06-07T19:06:29.584Z [my-banl-api] info API Started
+2020-06-07T19:06:41.179Z [my-banl-api] info GET /account
+2020-06-07T19:06:44.519Z [my-banl-api] info POST /account - {"id":16,"name":"Usuario3","balance":0}
+2020-06-07T19:06:50.005Z [my-banl-api] info GET /account/:id
+2020-06-07T19:06:57.300Z [my-banl-api] info GET /account/:id - {"id":1,"name":"Neder Simoes","balance":1000}
+2020-06-07T19:07:06.792Z [my-banl-api] info PUT /account - {"id":1,"name":"Neder Simoes","balance":2000}
+2020-06-07T19:07:21.187Z [my-banl-api] info POST /account/transaction - {}
+2020-06-07T19:07:51.011Z [my-banl-api] info API Started
+2020-06-07T19:07:53.785Z [my-banl-api] info POST /account/transaction - {"id":1,"value":2000}
+2020-06-07T19:08:01.661Z [my-banl-api] info DELETE /account/:id - 1
+2020-06-07T19:08:04.936Z [my-banl-api] info GET /account
