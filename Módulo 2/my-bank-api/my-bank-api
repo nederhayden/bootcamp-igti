@@ -78,3 +78,9 @@
 2020-06-07T19:07:53.785Z [my-banl-api] info POST /account/transaction - {"id":1,"value":2000}
 2020-06-07T19:08:01.661Z [my-banl-api] info DELETE /account/:id - 1
 2020-06-07T19:08:04.936Z [my-banl-api] info GET /account
+2020-06-08T16:24:43.448Z [my-bank-api] info API Started
+2020-06-08T16:25:26.046Z [my-bank-api] info GET /account
+2020-06-08T16:25:29.251Z [my-bank-api] info GET /account/:id
+2020-06-08T16:25:44.806Z [my-bank-api] info GET /account/:id - {"id":16,"name":"Usuario3","balance":0}
+2020-06-08T16:25:49.545Z [my-bank-api] info DELETE /account/:id - 16
+2020-06-08T16:25:52.072Z [my-bank-api] info GET /account

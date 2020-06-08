@@ -1,8 +1,12 @@
-const express = require("express");
-const fs = require("fs").promises;
+import express from "express";
+import { promises } from "fs";
+import winston from "winston";
+import accountsRouter from "./routes/accounts.js";
+
 const app = express();
-const accountsRouter = require("./routes/accounts.js");
-const winston = require("winston");
+
+const readFile = promises.readFile;
+const writeFile = promises.writeFile;
 
 global.fileName = "accounts.json";
 
@@ -17,11 +21,7 @@ global.logger = winston.createLogger({
     new winston.transports.Console(),
     new winston.transports.File({ filename: "my-bank-api" }),
   ],
-  format: combine(
-    label({label: "my-banl-api"}),
-    timestamp(),
-    myFormat
-  ),
+  format: combine(label({ label: "my-bank-api" }), timestamp(), myFormat),
 });
 
 app.use(express.json());
@@ -29,7 +29,7 @@ app.use("/account", accountsRouter);
 
 app.listen(3000, async () => {
   try {
-    await fs.readFile(global.fileName, "utf8");
+    await readFile(global.fileName, "utf8");
     logger.info("API Started");
   } catch (err) {
     const initialJson = {
@@ -37,7 +37,7 @@ app.listen(3000, async () => {
       accounts: [],
     };
 
-    fs.writeFile(global.fileName, JSON.stringify(initialJson)).catch((err) => {
+    writeFile(global.fileName, JSON.stringify(initialJson)).catch((err) => {
       logger.error(err);
     });
   }
